@@ -56,12 +56,12 @@ def winner(board)
 
 
 
-  else WIN_COMBINATIONS.each do |win|
-    if win(board,'X')
-      return 'X'
-    elsif win(board,'O')
-      return 'O'
-    end
-  end
-end
-end
+#  else WIN_COMBINATIONS.each do |win|
+#    if win(board,'X')
+#      return 'X'
+#    elsif win(board,'O')
+#      return 'O'
+#    end
+#  end
+#end
+# end
