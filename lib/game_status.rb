@@ -52,10 +52,9 @@ def winner(board)
   if !won?(board)
     return nil
   else WIN_COMBINATIONS.each do |win|
-    index = win[0]
-    if win(board,index,'X')
+    if win(board,'X')
       return 'X'
-    elsif win(board,index,'O')
+    elsif win(board,'O')
       return 'O'
     end
   end
