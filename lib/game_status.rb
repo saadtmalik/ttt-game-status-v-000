@@ -55,7 +55,7 @@ def winner(board)
     return [0]
   end
 end
-end
+
 
 
 
