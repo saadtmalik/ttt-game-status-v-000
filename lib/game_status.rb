@@ -51,6 +51,11 @@ end
 def winner(board)
   if !won?(board)
     return nil
+  elsif won?(board) [0]
+    return
+
+
+
   else WIN_COMBINATIONS.each do |win|
     if win(board,'X')
       return 'X'
