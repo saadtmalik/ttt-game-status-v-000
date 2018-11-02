@@ -53,6 +53,10 @@ def winner(board)
     return nil
   elsif won?(board) [0]
     return [0]
+  end
+end
+end
+
 
 
 
