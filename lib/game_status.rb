@@ -51,8 +51,7 @@ end
 def winner(board)
   if !won?(board)
     return nil
-  elsif won?(board) [0]
-    winning_index = WIN_COMBINATIONS
+  elsif win_index_1 = won?(board) [0]
     return board([0])
   end
 end
